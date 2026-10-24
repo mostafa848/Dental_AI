@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+trimesh
+flask==2.3.3
+flask-cors==4.0.0
+opencv-python==4.8.1.78
+ultralytics==8.0.186
+numpy==1.24.3
+torch>=1.7.0
+flask-jwt-extended==4.5.3
+pymongo==4.5.0
+bcrypt==4.0.1
+python-dotenv==1.0.0
+pillow==10.1.0
+werkzeug==2.3.7

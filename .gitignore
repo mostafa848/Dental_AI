@@ -1,0 +1,57 @@
+# =========================
+# React / Node
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================
+# Python
+# =========================
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# =========================
+# Environment
+# =========================
+backend/.env
+*.env
+
+# =========================
+# Uploads / Generated files
+# =========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# AI / ML model weights
+backend/models/*.pt
